@@ -1,0 +1,139 @@
+header {
+
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#nav1 {
+    
+    background-color: #FFFFFF;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e5e8ed;
+    position: relative;
+}    
+    
+#nav2 {
+        
+    background-color: #FFFFFF;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #e5e8ed;
+        
+}
+
+#home-hero {
+    height: 800px;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    position: relative;
+}
+
+
+#nav1 .my-button {
+    margin-top: 10px;            
+}
+
+.my-button {
+    background-color: #00d7d2;
+    border-color: #00d7d2;
+    color: #031b4e;
+    padding: 2px 6px;
+    font-size: 10px;
+    float: left;
+        
+}
+
+.my-button:hover {
+    cursor: default;
+        
+}
+
+.annoucement-bar {
+    color: #5b6987;
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.annoucement-bar:hover {
+    color: #0069ff;
+    text-decoration: none;
+    
+}
+
+.list-text a {
+    line-height: 40px;
+    color: #5b6987;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list-text a:hover {
+    text-decoration: none;
+}
+
+#nav2 img {
+    
+    height: 26px;
+    margin-top: 20px;
+
+}
+    
+.unified-link li {
+    
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 60px;
+    padding: 5px;
+
+}
+
+
+.text-link a {
+    color: #031b4e;
+    margin-left: 20px;
+}
+
+.text-link a:hover {
+    color: #0248ff;
+    
+}
+
+#nav2 .button-sign {
+    
+    margin-top: 15px;
+    padding: 6px 10px;
+    background-color: white;
+    color: #0069ff;
+    border: 2px solid #0069ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#nav2 .button-sign:hover {
+    background-color: #0069ff;
+    color: white;    
+}
+
+#my-menu-mobile img {
+    width: 100px;
+}
+
+#my-menu-mobile .logo-bars {
+    font-size: 25px;
+    padding: 20px;
+    color: #3498db;
+}
+
+.annoucement-wraper a{
+    position: absolute;
+    
+}
