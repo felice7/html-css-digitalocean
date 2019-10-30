@@ -1,7 +1,7 @@
 header {
 
     font-family: 'Roboto', sans-serif;
-    
+        
 }
 
 #nav1 {
@@ -27,11 +27,14 @@ header {
 }
 
 #home-hero {
-    height: 800px;
+    min-height: 800px;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
-    position: relative;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 120px;
+        
 }
-
 
 #nav1 .my-button {
     margin-top: 10px;            
@@ -96,7 +99,6 @@ header {
 
 }
 
-
 .text-link a {
     color: #031b4e;
     margin-left: 20px;
@@ -133,7 +135,19 @@ header {
     color: #3498db;
 }
 
-.annoucement-wraper a{
-    position: absolute;
+.home-center {
+    width: 1180px;
+    height: 680px;
+    margin: 0 auto;
+}
+
+.text-center {
+    padding-top: 20px;
+}
+
+.text-center a {
+    background-color: #00B47B;
+    font-size: 18px;
+    padding: 10px 200px;
     
 }
