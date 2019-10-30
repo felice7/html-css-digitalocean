@@ -148,6 +148,20 @@ header {
 .text-center a {
     background-color: #00B47B;
     font-size: 18px;
-    padding: 10px 200px;
+    padding: 10px 250px;
+    
+}
+
+.home-center h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+    
+}
+
+.home-center p {
+    font-size: 25px;
+    color: white;
     
 }
