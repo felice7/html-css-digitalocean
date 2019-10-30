@@ -148,7 +148,7 @@ header {
 .text-center a {
     background-color: #00B47B;
     font-size: 18px;
-    padding: 10px 250px;
+    padding: 10px 220px;
     
 }
 
@@ -164,4 +164,78 @@ header {
     font-size: 25px;
     color: white;
     
+}
+
+.jumbotron {
+    background-color: white;
+    width: 480px;
+    height: 540px;
+    float: right;
+    margin-top: 40px;
+}
+
+.jumbotron .text-form {
+    font-size: 25px;
+    font-weight: bold;
+    color: #031b4e;    
+}
+.jumbotron input {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #031b4e; 
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+.jumbotron button {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #0069ff;
+    border-color: #0069ff;
+    padding: 15px 110px; 
+}
+
+.jumbotron button:hover {
+    background-color: #133bff;
+    color: white;    
+}
+
+.jumbotron p {
+    font-size: 16px;
+    color: black;
+}
+
+
+.separator span {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.separator {
+    max-width: 400px;
+    margin: 20px auto;
+    position: relative;
+    
+}
+.separator::before {
+    content: "";
+    display: inline-block;
+    width: 35%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.separator::after{
+    content: "";
+    display: inline-block;
+    width: 35%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
