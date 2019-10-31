@@ -145,7 +145,7 @@ header {
     padding-top: 20px;
 }
 
-.text-center a {
+.text-center .wrapper-text {
     background-color: #00B47B;
     font-size: 18px;
     padding: 10px 220px;
@@ -187,16 +187,17 @@ header {
     padding: 20px;
 }
 
-.jumbotron button {
+.jumbotron .button-account {
     font-size: 14px;
     font-weight: bold;
     color: white;
     background-color: #0069ff;
     border-color: #0069ff;
     padding: 15px 110px; 
+    border-radius: 5px;
 }
 
-.jumbotron button:hover {
+.jumbotron .button-account:hover {
     background-color: #133bff;
     color: white;    
 }
@@ -223,7 +224,7 @@ header {
     display: inline-block;
     width: 35%;
     height: 1px;
-    background-color: grey;
+    background-color: lightgrey;
     position: absolute;
     left: 0;
     top: 10px;
@@ -234,8 +235,45 @@ header {
     display: inline-block;
     width: 35%;
     height: 1px;
-    background-color: grey;
+    background-color: lightgrey;
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.jumbotron .button-social {
+    background-color: #F4F8FD;
+    color: #031b4e;
+    border-color: #F4F8FD;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 7px;
+        
+}
+
+.jumbotron .terms-service {
+    text-decoration-line: underline;
+}
+
+#background-color {
+    height: 280px;
+    background-color: #E7EAEF;
+}
+
+.text-center h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 40px;
+    
+}
+.img-logo {
+    height: 140px;
+}
+.img-logo img {
+    max-height: 120px;
+    max-width: 120px;
+    margin: 0px 20px;
+    
 }
