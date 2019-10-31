@@ -263,7 +263,7 @@ header {
     
 }
 
-.text-center h2 {
+.logo h2 {
     font-size: 16px;
     font-weight: lighter;
     margin-top: 40px;
@@ -277,11 +277,63 @@ header {
 .img-logo img {
     
     max-height: 75px;
-    margin: 0px 10px;    
+    margin: 0px 30px;    
 }
 
- .text-center li:last-child {
+ .logo li:last-child {
     
     width: 100px;
     height: 50px;
+}
+
+#sezione-bianca {
+    width: 1180px;
+}
+
+.testo1 h1{
+    
+    font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+    margin-top: 50px;
+}
+
+.testo1 p {
+    font-size: 20px;
+    color: rgba(3,27,78,0.70);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.lista ul {
+    font-size: 20px;
+    color: rgba(3,27,78,0.50);
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 60px;  
+}
+
+.lista li {
+    margin-bottom: 20px;
+}
+
+.lista li:first-child {
+    color: #031b4e;
+}
+
+.testo2 h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.testo2 p {
+    font-size: 16px;
+    color: rgba(3,27,78,0.70);
+}
+
+.testo2 span {
+    font-size: 20px;
+    color: blue;
+    margin-top: 40px;
 }
