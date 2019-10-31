@@ -260,6 +260,7 @@ header {
 #background-color {
     height: 280px;
     background-color: #E7EAEF;
+    
 }
 
 .text-center h2 {
@@ -268,12 +269,19 @@ header {
     margin-top: 40px;
     
 }
+
 .img-logo {
     height: 140px;
 }
+
 .img-logo img {
-    max-height: 120px;
-    max-width: 120px;
-    margin: 0px 20px;
     
+    max-height: 75px;
+    margin: 0px 10px;    
+}
+
+ .text-center li:last-child {
+    
+    width: 100px;
+    height: 50px;
 }
